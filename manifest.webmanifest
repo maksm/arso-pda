@@ -9,7 +9,7 @@
   "display": "standalone", 
   "icons": [
       {
-        "src": "/aros-pda/img/icon.png",
+        "src": "img/icon.png",
         "type": "image/png",
         "sizes": "700x700"
       }
