@@ -10,7 +10,8 @@ var URLS = [
   `${GHPATH}/page4.html`,
   `${GHPATH}/page5.html`,
   `${GHPATH}/css/styles.css`,
-  `${GHPATH}/js/app.js`
+  `${GHPATH}/js/app.js`,
+  `${GHPATH}/manifest.webmanifest`
 ];
 
 var CACHE_NAME = APP_PREFIX + VERSION;
@@ -33,7 +34,16 @@ self.addEventListener("install", function (e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
       console.log("Installing cache : " + CACHE_NAME);
-      return cache.addAll(URLS);
+      // Magic is here. Look the  mode: 'no-cors' part.
+      cache
+        .addAll(
+          URLS.map(function (urlToPrefetch) {
+            return new Request(urlToPrefetch, { mode: "no-cors" });
+          })
+        )
+        .then(function () {
+          console.log("All resources have been fetched and cached.");
+        });
     })
   );
 });
