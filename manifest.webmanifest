@@ -6,5 +6,12 @@
   "start_url": "/arso-pda/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone", 
+  "icons": [
+      {
+        "src": "/github-page-pwa/img/icon.png",
+        "type": "image/png",
+        "sizes": "70x70"
+      }
+  ]
 }
