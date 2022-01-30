@@ -1,7 +1,13 @@
 var GHPATH = "/arso-pda";
 var APP_PREFIX = "arsopda_";
 var VERSION = "version_001";
-var URLS = [`/`, `index.html`, `css/styles.css`, `img/icon.png`, `js/app.js`];
+var URLS = [
+  `${GHPATH}/`,
+  `${GHPATH}/index.html`,
+  `${GHPATH}/css/styles.css`,
+  `${GHPATH}/img/icon.png`,
+  `${GHPATH}/js/app.js`
+];
 
 var CACHE_NAME = APP_PREFIX + VERSION;
 self.addEventListener("fetch", function (e) {
