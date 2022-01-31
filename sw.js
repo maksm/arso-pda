@@ -12,9 +12,9 @@ var URLS = [
   `${GHPATH}/css/styles.css`,
   `${GHPATH}/js/app.js`,
   `${GHPATH}/manifest.webmanifest`,
-  `http://meteo.arso.gov.si/uploads/probase/www/observ/surface/graphic/weatherSat_si_pda.png`,
-  `http://meteo.arso.gov.si/uploads/probase/www/observ/radar/si0_zm_pda_latest.gif`,
-  `http://meteo.arso.gov.si/uploads/probase/www/observ/satellite/nwcsaf_ct_pda_latest.gif`
+  `https://meteo.arso.gov.si/uploads/probase/www/observ/surface/graphic/weatherSat_si_pda.png`,
+  `https://meteo.arso.gov.si/uploads/probase/www/observ/radar/si0_zm_pda_latest.gif`,
+  `https://meteo.arso.gov.si/uploads/probase/www/observ/satellite/nwcsaf_ct_pda_latest.gif`
 ];
 
 var CACHE_NAME = APP_PREFIX + VERSION;
