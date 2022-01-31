@@ -1,3 +1,4 @@
+/*
 var swipeNavigation = [
   "",
   "page1.html",
@@ -6,6 +7,7 @@ var swipeNavigation = [
   "page4.html",
   "page5.html"
 ];
+
 var myElement = document.getElementById("main_container");
 var mc = new Hammer(myElement);
 mc.get("swipe").set({ direction: Hammer.DIRECTION_ALL });
@@ -30,3 +32,4 @@ mc.on("swiperight", function (ev) {
 mc.on("swipedown swipeup", function (ev) {
   console.log(ev.type + " gesture detected.");
 });
+*/
