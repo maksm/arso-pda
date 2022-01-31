@@ -15,7 +15,7 @@ mc.on("swipeleft swiperight", function (ev) {
   var currentLocation = hrefSplit.pop();
   var sNind = swipeNavigation.indexOf(currentLocation);
   var nind = 0;
-  if (ev.type == "swipeleft") {
+  if (ev.type == "swiperight") {
     if (sNind > 0) {
       nind = sNind - 1;
     } else {
