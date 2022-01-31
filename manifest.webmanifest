@@ -4,8 +4,8 @@
   "description": "Github Page as a Progressive Web App for ARSO PDA meteo",
   "scope": "/arso-pda/",
   "start_url": "/arso-pda/index.html",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#ecf5e4",
+  "theme_color": "#639045",
   "display": "standalone", 
   "icons": [
       {
