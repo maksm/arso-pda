@@ -9,7 +9,7 @@ var swipeNavigation = [
 
 var myElement = document.getElementById("main_container");
 var mc = new Hammer(myElement);
-mc.get("swipe").set({ direction: Hammer.DIRECTION_ALL });
+mc.get("swipe").set({ direction: Hammer.DIRECTION_HORIZONTAL });
 mc.on("swipeleft swiperight", function (ev) {
   var hrefSplit = window.location.href.split("/");
   var currentLocation = hrefSplit.pop();
