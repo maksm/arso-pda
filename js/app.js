@@ -1,10 +1,10 @@
 var swipeNavigation = [
   "index.html",
-  "page1.html",
-  "page2.html",
-  "page3.html",
-  "page4.html",
-  "page5.html"
+  "radar.html",
+  "aladin.html",
+  "epsgram.html",
+  "blitz.html",
+  "gefs.html"
 ];
 
 var myElement = document.getElementById("main_container");
