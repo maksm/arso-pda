@@ -1,7 +1,7 @@
 {
-  "name": "ARSO PDA",
-  "short_name": "ARSO_PDA",
-  "description": "Github Page as a Progressive Web App for ARSO PDA meteo",
+  "name": "Gredež",
+  "short_name": "gredez",
+  "description": "Github Page kot Progressive Web App za meteo podatke",
   "scope": "/arso-pda/",
   "start_url": "/arso-pda/index.html",
   "background_color": "#ecf5e4",
