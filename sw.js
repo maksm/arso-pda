@@ -1,6 +1,6 @@
 var GHPATH = "/arso-pda";
 var APP_PREFIX = "gredez_";
-var VERSION = "version_001";
+var VERSION = "version_002";
 var URLS = [
   `${GHPATH}/`,
   `${GHPATH}/index.html`,

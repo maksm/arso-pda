@@ -1,6 +1,6 @@
 {
-  "name": "Gredež",
-  "short_name": "gredez",
+  "name": "GreDež",
+  "short_name": "GreDež",
   "description": "Github Page kot Progressive Web App za meteo podatke",
   "scope": "/arso-pda/",
   "start_url": "/arso-pda/index.html",
