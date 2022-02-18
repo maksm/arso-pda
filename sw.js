@@ -1,4 +1,4 @@
-var GHPATH = "/arso-pda";
+var GHPATH = "/gredez";
 var APP_PREFIX = "gredez_";
 var VERSION = "version_002";
 var URLS = [
