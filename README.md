@@ -1,6 +1,6 @@
 # Current page
 
-https://maksm.github.io/arso-pda/
+https://maksm.github.io/gredez/
 
 # Github page as a PWA template
 
