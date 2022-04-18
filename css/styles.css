@@ -4,3 +4,7 @@
 .navbar {
   background-color: #639045 !important;
 }
+.btn-outline-primary {
+  color: #639045 !important;
+  border-color: #639045 !important;
+}
